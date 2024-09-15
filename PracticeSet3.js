@@ -29,6 +29,7 @@ let marks = {
 // }
 
 // Q4 Write a function to find the mean of 5 numbers?
+// This is arrow function
 const mean=(a,b,c,d,e)=>{
 return ((a+b+c+d+e)/5);
 }
