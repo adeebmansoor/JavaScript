@@ -60,6 +60,18 @@ console.log(myName + brother + brother2);
 let man = "     Josh     "
 console.log(man.trim());
 
+// 9. includes(a)    This method returns true if the given word is present in the respective string
+let sentenceline = "The quick brown fox jumps over the lazy dog";
+let word = "fox";
+console.log(sentenceline.includes(word));
+console.log(`The word ${word} ${sentenceline.includes(word) ? 'is' : 'is not'}` + " present in the sentence");
+
+// 10. startsWith(a)   This method return true if the string is starts with the particular string
+console.log(sentenceline.startsWith('The'));
+
+// 11. endsWith(a)   This method return true if the string is ends with the particular string
+console.log(sentenceline.endsWith('dog'));
+
 // Strings are immutable in order to access the character at particular index we use the following syntax
 console.log(myName[2]);
 console.log(myName[7]);
