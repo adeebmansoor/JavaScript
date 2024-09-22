@@ -34,7 +34,7 @@
 // else if(age>=18){
 //     alert("Yes you can drive!");
 // }
-// }while(confirm("Want to see the prompt again?"))
+// }while(confirm("Want to see the prompt again?"));
 
 // Q4 - WAP to change a url to google.com if the user enters a number greater than 4?
 // let num = prompt("Enter a Number: ");
