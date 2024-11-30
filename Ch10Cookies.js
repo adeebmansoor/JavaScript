@@ -1,0 +1,10 @@
+console.log(document.cookie);
+document.cookie = "name = adeeb";
+// document.cookie = "name2 = mansoor";
+// document.cookie = "name = mohd";
+// console.log(document.cookie);
+// const prompt = require("prompt-sync")();
+let key = prompt("Enter the Key");
+let value = prompt("Enter the Value");
+document.cookie = `${encodeURIComponent(key)} = ${encodeURIComponent(value)}`;
+console.log(document.cookie);

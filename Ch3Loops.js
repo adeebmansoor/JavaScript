@@ -1,13 +1,13 @@
 // for Loop
 // Program for factorial of a n natural numbers?
-/*const prompt = require("prompt-sync")();
-let fact = 1;
-let n = prompt("Enter the value of n: ");
-n = Number.parseInt(n);
-for(let i=1; i<=n; i++){
-    fact *= i;
-}
-console.log("Factorial of " + n + " is " + fact); */
+// const prompt = require("prompt-sync")();
+// let fact = 1;
+// let n = prompt("Enter the value of n: ");
+// n = Number.parseInt(n);
+// for(let i=1; i<=n; i++){
+//     fact *= i;
+// }
+// console.log("Factorial of " + n + " is " + fact);
 
 // for-in Loop (it loops through the keys of an object)
 /* let obj = {
@@ -40,11 +40,11 @@ console.log(sum); */
 
 // do-while Loop
 // Multiplication table of nth number?
-const prompt = require("prompt-sync")();
-let n = prompt("Enter the value of n: ");
-n = Number.parseInt(n);
-let i = 1;
-do{
-    console.log(n + " X " + i + " = " + n*i);
-    i++;
-}while(i<=10)
+// const prompt = require("prompt-sync")();
+// let n = prompt("Enter the value of n: ");
+// n = Number.parseInt(n);
+// let i = 1;
+// do{
+//     console.log(n + " X " + i + " = " + n*i);
+//     i++;
+// }while(i<=10)
